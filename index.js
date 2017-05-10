@@ -3,7 +3,7 @@ module.exports = (array) => {
     return new Promise((resolve, reject) => {
         array.forEach(promise => {
             promise
-            .then(() => reject(new Error('All promises did not fail')))
+            .then(() => reject(promise))
             .catch(() => {
                 length--;
                 !length && resolve();
