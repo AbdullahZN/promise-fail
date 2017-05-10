@@ -1,0 +1,23 @@
+{
+  "name": "promise-fail",
+  "version": "1.0.0",
+  "description": "Adds a .fail method to global Promise that resolves if all promises fail",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AbdullahZN/promise-fail.git"
+  },
+  "keywords": [
+    "promises",
+    "promise"
+  ],
+  "author": "Abdullah Uzun",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AbdullahZN/promise-fail/issues"
+  },
+  "homepage": "https://github.com/AbdullahZN/promise-fail#readme"
+}
