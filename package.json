@@ -1,7 +1,7 @@
 {
   "name": "promise-fail",
-  "version": "1.0.0",
-  "description": "Adds a .fail method to global Promise that resolves if all promises fail",
+  "version": "1.0.1",
+  "description": "returns a single Promise that resolves when all of the promises in the iterable argument have been rejected.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
